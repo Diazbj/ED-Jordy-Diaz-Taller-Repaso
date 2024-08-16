@@ -47,20 +47,20 @@ public class EjecutableDeclaraciones {
 
     public static void declararArreglos(){
 
-        int numeros [] = {1,2,3,4};
+        int numeros [] = {1,0,3,10};
         for (int i = 0; i < numeros.length; i++) {
-            System.out.print(+numeros [i]);
+            System.out.println(+numeros [i]);
         }
         System.out.println();
 
-        long numero1[]= {23423,54534,656464};
+        long numero1[]= {10024521,235465,5789742,457896};
         for (int i = 0; i < numero1.length; i++) {
-            System.out.print(+ numero1 [i]);
+            System.out.println(+ numero1 [i]);
         }
         System.out.println();
-        char letra[] = {'a', 'b', 'c'};
+        char letra[] = {'a', 'e', 'i'};
         for (int i = 0; i < letra.length; i++) {
-            System.out.print(+letra [i]);
+            System.out.println(+letra [i]);
         }
         System.out.println();
         String palabra[]= new String[3];
@@ -68,7 +68,7 @@ public class EjecutableDeclaraciones {
         palabra[1]="hipotenusa";
         palabra[2]="Divide";
         for (int i = 0; i < palabra.length; i++) {
-            System.out.print(palabra [i] + " ");
+            System.out.println(palabra [i] + " ");
         }
         System.out.println();
 

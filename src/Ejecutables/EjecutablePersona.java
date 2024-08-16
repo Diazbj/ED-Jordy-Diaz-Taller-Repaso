@@ -26,7 +26,7 @@ public class EjecutablePersona {
             System.out.println(persona.getNombre() + ", " + persona.getEdad());
         }
 
-        int edadBusqueda = 8; // Por ejemplo, buscando una persona de 30 años
+        int edadBusqueda = 8; // buscar una persona de 8 años
         Persona resultado = buscarPorEdad(personas, edadBusqueda, 0, personas.length - 1);
         if (resultado != null) {
             System.out.println("Persona encontrada: " + resultado.getNombre() + ", " + resultado.getEdad());
