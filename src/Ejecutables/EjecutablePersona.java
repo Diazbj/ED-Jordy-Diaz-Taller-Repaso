@@ -9,6 +9,7 @@ public class EjecutablePersona {
     public static void main(String[] args) {
 
         Persona[] personas=new Persona[8];
+        
 
         personas[0]=new Persona("juan",28);
         personas[1]=new Persona("Felipe",16);
