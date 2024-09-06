@@ -15,14 +15,14 @@ public class EjecutableMiListaEnlazada {
 
         // Imprimir los elementos de la lista
         System.out.println("Elementos en la lista:");
-        lista.imprimir();
-
-        lista.eliminar(35);
-        System.out.println("Elementos en la lista:");
-        lista.imprimir();
-
-        lista.eliminarPorPosicion(2);
-        System.out.println("Elementos en la lista:");
-        lista.imprimir();
+//        lista.imprimir();
+//
+//        lista.eliminar(35);
+//        System.out.println("Elementos en la lista:");
+//        lista.imprimir();
+//
+//        lista.eliminarPorPosicion(2);
+//        System.out.println("Elementos en la lista:");
+//        lista.imprimir();
     }
 }
