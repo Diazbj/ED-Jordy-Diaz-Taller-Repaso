@@ -59,6 +59,7 @@ public class EjecutablePersona {
 
     public static void ordenarPorEdad2(Persona[] personas){
         Arrays.sort(personas, (p1, p2) -> Integer.compare(p1.getEdad(), p2.getEdad()));
+
     }
 
     public static Persona buscarPorEdad(Persona[] personas, int edadBuscada, int inicio, int fin) {
