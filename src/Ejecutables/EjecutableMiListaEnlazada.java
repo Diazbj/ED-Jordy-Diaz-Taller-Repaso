@@ -30,7 +30,7 @@ public class EjecutableMiListaEnlazada {
 
         IteradorListaEnlazada<Integer> iteradorLista = lista.iterador();
 
-        
+
 
         System.out.println("Elementos en la lista con iterador:");
         while (iteradorLista.hasNext()) {
