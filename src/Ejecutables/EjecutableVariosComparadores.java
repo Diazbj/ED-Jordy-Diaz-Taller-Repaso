@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class EjecutableVariosComparadores {
+public class    EjecutableVariosComparadores {
 
     public static void main(String[] args) {
 
