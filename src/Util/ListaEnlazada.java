@@ -83,6 +83,5 @@ public class ListaEnlazada<T> implements Colecciones<T> {
     public void setCabeza(Nodo<T> cabeza) {
         this.cabeza = cabeza;
     }
-
-
+    
 }
