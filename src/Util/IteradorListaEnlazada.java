@@ -28,5 +28,4 @@ public class IteradorListaEnlazada<T> implements Iterator<T> {
         return dato;  // Devuelve el dato
     }
 
-
 }
